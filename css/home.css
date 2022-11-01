@@ -1,0 +1,186 @@
+/* banner css start here */
+.mj_bann_right{
+    display: inline-block;
+    width: 30%;
+    padding: 0px 4px;
+    vertical-align: top;
+}
+.carousal_mj{
+    display: inline-block;
+    width: 70%;
+    padding: 0px 4px;
+    vertical-align: top;
+}
+.bann_carousal{
+    width: 100%;
+    font-size: 0px;
+}
+.bann_mj_list >li{
+    padding-bottom:  7px;
+    display: block;
+    font-size: 14px;
+}
+span >img{
+ cursor: pointer;
+}
+.mj_bann_img{
+    width: 100%;
+    font-size: 0px;
+    vertical-align: top;
+}
+.shop_now{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+/* .mj_bann_img >span >img{
+    display: inline-block;
+} */
+.shop_now >span >img{
+ max-width: 150px;
+    max-height: 150px;
+    display: block;
+}
+.mj_text{
+    display: inline-block;
+    padding: 22px 0px 0px 8px;
+    width: 50%;
+    vertical-align: top;
+
+}
+.mj_text >h3{
+    font-weight: bold;
+    color: #272b3f;
+    font-size: 14px;
+  
+}
+.text{
+    display: block;
+}
+.mj_text >p{
+    padding: 8px 0px 10px 0px;
+    color: #737489;
+    line-height: 1.38;
+    font-size: 13px;
+}
+.mj_text >a{
+    color: #c5c5c5;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mj_text >a:hover{
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+}
+/* banner box css start here */
+.mj_box{
+    border: 1px solid #ccc;
+  padding: 0px 0px 10px 10px;
+  background-color: #fff;
+  border: none;
+}
+.box_list >li{
+    display: inline-block;
+    font-size: 14px;
+    width: 25%;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.mj_box >a:hover{
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+}
+.mj_box >a{
+   
+}
+.box_list >li:hover {
+
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0px 45px 60px 0px rgb(0 0 0 / 9%);
+
+}
+.box_list{
+    width: 100%;
+    font-size: 0px;
+}
+.mj_box_bann{
+    margin-top: 25px;
+}
+.mj_box >p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.43;
+    color: #272b3f;
+    margin: 26px auto 18px;
+    text-transform: uppercase;
+}
+/* trand mark css */
+.mj_mark{
+    text-align: center;
+    margin: 49px 0px;
+}
+.bann_box_trand{
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.trend_list >li{
+    display: inline-block;
+    padding: 0px 0px 0px 15px;
+    background-color: #fff;
+    width: 50%;
+}
+.trend_list{
+    width: 100%;
+    font-size: 0px;
+    margin-bottom: 60px;
+}
+.bann_box_trand >h2{
+    font-size: 18px;
+    padding: 23px 0px 3px 15px;
+    color: #272b3f;
+}
+.bann_box_trand >p{
+    font-size: 14px;
+    padding: 3px 0px 21px 15px;
+    color: #76778b;
+   
+}
+.bann_box_trand >span >img{
+    transition: 0.9s;
+    width: 100%;
+    cursor: pointer;
+}
+.bann_box_trand >span >img:hover{
+    transform: scale(1.009);
+}
+
+@media (max-width: 767px){
+    .carousal_mj , .mj_bann_right , .trend_list >li{
+        width: 100%;
+    }
+    .trend_list >li{
+        margin-top: 24px;
+    }
+    .mj_head_right{
+        display: none;
+    }
+    .box_list >li{
+        width: 50%;
+        margin-top: 24px;
+    }
+    .mj_footer >li{
+        width: 50%;
+    }
+    .mj_sub >input{
+        width: 100%;
+    }
+    .mj_sub >button{
+        position: relative;
+        margin: 16px 12px;
+    }
+}

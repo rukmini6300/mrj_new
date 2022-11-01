@@ -1,0 +1,452 @@
+/* header css */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.payment_head{
+    font-size: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.payment_logo{
+    width: 50%;
+    font-size: 14px;
+    display: inline-block;
+}
+.payment_secure{
+    width: 50%;
+    font-size: 14px;
+    display: inline-block;
+    text-align: right;
+}
+.payment_secure >p{
+    font-weight: bold;
+    color:  #192e60;
+}
+.payment_secure >span{
+    font-size: 14px;
+    display: inline-block;
+}
+.payment_secure >p{
+    display: inline-block;
+}
+.pay_head{
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 0 4px 15px 0 rgba(149, 149, 149, 0.5);
+}
+/* payment banner css start here */
+.mj_payment_head{
+    position: relative;
+    font-size: 0px;
+    width: 100%;
+  margin-top: 21px;
+}
+.mj_pay_left{
+    width: 70%;
+    font-size: 14px;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0px 35px 0px 0px;
+    vertical-align: top;
+}
+.mj_pay_right{
+    width: 30%;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 45px 0px 0px 24px;
+}
+.list_payment_ban{
+    width: 100%;
+    font-size: 0px;
+    position: relative;
+}
+.list_payment_ban >li{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+}
+.list_payment_ban >li:last-child{
+    text-align: right;
+}
+.list_payment_ban >li >a{
+    color: #4095d6;
+    font-weight: bold;
+}
+
+
+.payment_login >li{
+    display: block;
+    margin: 17px 0px;
+    
+}
+.mj_lg_email{
+    border: 1px solid #ccc;
+}
+.payment_login >li >span{
+  
+    color:  #a4a3a4;
+    font-weight: bold;
+    padding: 18px 0px 18px 20px;
+    background-color:  #f7f7f9;
+    border: none;
+    border-radius: 4px;
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+.mj_lg_head{
+    padding: 22px 30px 23px 38px;
+}
+.mj_lg_head >p{
+    font-weight: bold;
+    color: #a4a3a4;
+    padding-bottom: 16px;
+}
+.mj_login {
+    width: 100%;
+    font-size: 0px;
+    position: relative;
+}
+.mj_login_left{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+
+.mj_login_left::before{
+    content: "OR";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    background-color: #fff;
+    padding: 3px 0px;
+}
+/* login right css start here */
+.mj_login_right{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 45px 0px 0px 40px;
+}
+.right_pay_text >h5{
+    color: #a4a3a4;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+.right_pay_text >p{
+    color: #272b3f;
+    font-weight: bold;
+}
+.right_pay_text >button{
+    height: 45px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color:  #20cc94;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 23px 0px 0px 0px ;
+    box-shadow: 0 2px 3px 0 rgba(173, 173, 173, 0.5);
+}
+
+
+.form_group_pay >label{
+    display: block;
+    padding: 9px 0px;
+    font-size: 12px;
+    color: #272b3f;
+}
+.form_group_pay >input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.form_group_pay {
+    padding: 0px 35px 0px 0px;
+}
+.form_group_pay >button{
+    height: 50px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color:  #20cc94;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 45px;
+    margin: 23px 0px 27px 0px ;
+    box-shadow: 0 2px 3px 0 rgba(173, 173, 173, 0.5);
+}
+.mj_singup{
+    width: 100%;
+    font-size: 0px;
+}
+.mj_singup >li{
+    font-size: 12px;
+    width: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.mj_singup >li >p{
+    color: #4095d6;
+}
+.mj_singup >li >b{
+    color: #4095d6;
+}
+/* shipping address start here */
+.mj_address{
+    padding: 20px;
+    font-size: 0px;
+    position: relative;
+    border: 1px solid#ccc;
+}
+
+.mj_new_address >p{
+    color: #a4a3a4;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mj_new_address >span{
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    background-color: #ccc;
+    padding: 14px;
+    max-width: 214px;
+    margin: 0px auto;
+   
+    color: #272b3f;
+    font-weight: bold;
+}
+.form_group_add{
+    font-size: 14px;
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+    padding: 12px;
+}
+.form_group_add >label{
+    display: block;
+    padding-bottom: 8px;
+}
+.form_group_add >input{
+   height: 50px;
+   width: 100%;
+   margin: 0px 20px 0px 0px;
+}
+.form_group_phone >label{
+    font-size: 12px;
+    display: block;
+    padding-bottom: 8px;
+}
+.form_group_phone{
+    padding: 12px;
+}
+.form_group_phone >input{
+    height: 50px;
+    width: 100%;
+}
+.mj_checkbox{
+    font-size: 12px;
+    padding: 12px;
+  
+}
+.mj_checkbox >label{
+    color: #272b3f;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0px 0px 0px 15px;
+}
+.mj_checkbox >input{
+    vertical-align: middle;
+   
+}
+.mj_btns{
+    padding: 12px;
+    margin-bottom: 21px;
+}
+.mj_btns >button:first-child{
+    height: 45px;
+    cursor: pointer;
+    padding: 12px 64px 14px 64px;
+    border: 1px solid #ccc;
+    background-color:  #20cc94;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 3px 0 rgba(173, 173, 173, 0.5);
+}
+.mj_btns >button:last-child{
+    height: 45px;
+    cursor: pointer;
+    padding: 12px 35px 12px 35px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 3px 0 rgba(173, 173, 173, 0.5);
+    margin: 0px 9px;
+    color: #272b3f;
+}
+.form_head{
+    border-bottom: 1px solid #ccc;
+}
+.form_note{
+    font-size: 14px;
+    margin: 17px 0px;
+  padding: 0px 0px 0px 12px;
+}
+.form_note >p{
+    color: #272b3f;
+    font-weight: bold;
+}
+.form_group_add >select{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+}
+.mj_select{
+    position: relative;
+}
+
+
+/* make payment radio css start here */
+
+.radio_mj >li{
+    display: block;
+
+}
+.credit{
+    display: block;
+}
+.pay_radio{
+    background-color:  #f5f5f7;
+    margin: 10px 0px;
+    padding: 15px ;
+}
+.card_mj >input{
+    height: 45px;
+    background-color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    margin: 24px 0px 9px 0px;
+    width: 307px;
+}
+.mj_date >select{
+    border: none;
+   font-weight: bold;
+}
+.mj_date >span{
+    padding: 0px 20px 0px 0px;
+    background-color: #fff;
+}
+
+.mj_date{
+    background-color: #fff;
+    padding: 14px 15px;
+    width: 25%;
+}
+
+
+
+/* sign up css start here */
+
+.sign_head{
+  
+    position: relative;
+    font-size: 0px;
+  
+   }
+   .cart_head_sign >h3{
+       text-align: center;
+       color: #272b3f;
+       font-size: 16px;
+       font-weight: bold;
+       
+   }
+   .cart_head_sign >p{
+       text-align: center;
+       font-size: 13px;
+       font-weight: bold;
+       color: #272b3f;
+       padding: 10px 0px 17px 0px;
+   }
+   .cart_head_sign{
+    font-size: 14px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 26px 50px 40px;
+  
+    left: 0;
+    right: 0;
+    background: #fff;
+    margin: -320px auto;
+    position: fixed;
+    top: 50%;
+    z-index: 99;
+
+   }
+   .form_group_sign{
+       padding: 10px 0px;
+   }
+   .form_group_sign >input{
+       height: 50px;
+       width: 100%;
+       padding: 17px 0px 19px 12px;
+      
+   }
+   .sign_text >p{
+       color: #a8a8a8;
+       padding-bottom: 31px;
+   }
+   .signup_btn >button{
+       width: 100%;
+       background-color: #192e60;
+       height: 50px;
+       border: 1px solid #192e60;
+       color: #fff;
+   }
+   /* css jqiery for login */
+  
+
+
+.ntf.active{
+    display: block;
+}
+.sign_head.active{
+    display: block;
+}
+.sign_head{
+    position: relative;
+    display: none;
+}
+ .signup_sides_part.active{
+    visibility: visible;
+    opacity: 1;
+}
+.signup_sides_part_effects{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #303f61eb;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    display: block;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+}  
+.cart_head_sign >h3 >span >i{
+    position: absolute;
+    font-size: 24px;
+    right: 20px;
+    top: 18px;
+}

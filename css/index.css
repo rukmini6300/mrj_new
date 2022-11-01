@@ -1,0 +1,368 @@
+body {
+    position: relative;
+      color: #000;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  * {
+      padding: 0;
+      margin: 0
+  }
+  
+  *,:after,:before {
+      box-sizing: border-box
+  }
+  
+  *,:focus {
+      outline: 0
+  }
+  
+  img {
+      max-width: 100%;
+      vertical-align: bottom
+  }
+  
+  a {
+      color: #272b3f;
+      text-decoration: none;
+      display: inline-block
+  }
+  
+  a:focus,a:hover {
+      text-decoration: none
+  }
+  
+  ul {
+      list-style-type: none
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,ul {
+      margin-bottom: 0
+  }
+  
+  .container {
+      margin: 0 auto;
+      position: relative
+  }
+  
+  @media only screen and (max-width: 992px) {
+      .container {
+          padding:0 12px
+      }
+  }
+  
+  @media(min-width: 992px) {
+      .container {
+          width:970px
+      }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+      .container {
+          width:1200px
+      }
+  }
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+      border-radius: 20px
+  }
+  
+  ::-webkit-scrollbar-button {
+      display: none
+  }
+  
+  ::-webkit-scrollbar-track {
+      background-color: #ccc
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+      background-color: #ccc
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background-color: #2f1dac
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #2f1dac
+  }
+  
+  ::-webkit-scrollbar-corner {
+      display: none
+  }
+  
+  ::-webkit-resizer {
+      display: none
+  }
+  
+  .list-inline {
+      padding: 0;
+      font-size: 0;
+      list-style-type: none
+  }
+  
+  .list-inline>li {
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 16px
+  }
+  
+  .text-right {
+      text-align: right
+  }
+  
+  .text-left {
+      text-align: left
+  }
+  
+  .text-center {
+      text-align: center
+  }
+
+/* head css start here */
+  header{
+    position: relative;
+    font-size: 0px;
+    box-shadow: 0 4px 15px 0 rgba(149, 149, 149, 0.5);
+}
+.mj_head_list >li{
+    display: inline-block;
+    padding: 0px 12px;
+    border-right: 1px solid #000;
+    vertical-align: middle;
+}
+.mj_head_list >li:last-child{
+    border-right: 0px;
+}
+.mj_head_list{
+    font-size: 14px;
+    text-align: right;
+  padding: 14px 0px;
+}
+.mj_phone >a{
+    height: 14px;
+  padding: 0px 12px 0px 9px;
+  color: #272b3f;
+}
+.mj_order >a, .mj_login >a, .mj_reg >a{
+    font-weight: bold;
+    height: 14px;
+    padding: 0px 12px 0px 0px;
+}
+.mj_head{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 13px;
+}
+/* css header start here */
+.head_main{
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 4px 15px 0 rgba(149, 149, 149, 0.5);
+    border: none;
+    margin-bottom: 11px;
+}
+.mj_main_left{
+    font-size: 14px;
+    width: 60%;
+    display: inline-block;
+}
+.mj_main_left >li >a{
+    color: #272b3f;
+}
+.mj_main_left >li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 500;
+   vertical-align: middle;
+}
+.mj_head_right{
+    font-size: 14px;
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.header_mj{
+    width: 100%;
+    font-size: 0px;
+    padding: 16px 0px;
+    vertical-align: middle;
+    
+}
+.mj_search{
+    display: inline-block;
+    position: relative;
+}
+.mj_search >span >i{
+    position: absolute;
+    left: 14px;
+    margin: 11px auto;
+   color: #aaa;
+}
+
+
+
+.mj_ico{
+    display: inline-block;
+    text-align: right;
+}
+.mj_search >input{
+    height: 35px;
+  width: 250px;
+  padding: 11px 36px;
+  background-color: #f5f5f6;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  border: none;
+}
+.mj_ico_list >li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+.mj_ico_list{
+    vertical-align: middle;
+}
+.mj_main_left >li >a:hover{
+    color: red;
+}
+.mj_ico_list >li >span >i:hover{
+    color: red;
+   
+}
+.mj_main_left >li >a{
+    color: #192e60;
+}
+.bag_ntf{
+    background-color: #192e60;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    padding: 1px;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    position: absolute;
+    left: 9px;
+    top: -5px;
+}
+.ntf{
+    position: relative;
+}
+
+
+/* footer css start here */
+.mj_footer{
+    width: 100%;
+    font-size: 0px;
+    /* padding:55px 0px 40px 0px; */
+}
+.mj_footer >li{
+    display: inline-block;
+    font-size: 14px;
+    width:25%;
+    vertical-align: top;
+}
+footer{
+    background-color:#eeeeee;
+    /* margin: 60px 0px 0px 0px; */
+  
+}
+.mj_footer >li >b{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #272b3f;
+    padding-bottom: 14px;
+    display: block;
+    
+}
+.mj_footer >li >ul>li >a{
+    font-size: 14px;
+    line-height: 2.5;
+    color: #626262;
+}
+.mj_footer >li >ul>li >a:hover{
+   text-decoration: underline;
+    color: #000;
+}
+.ft_location{
+    vertical-align: top;
+}
+.mj_sub >input{
+    height: 35px;
+    border: solid 0.6px #d9d9d9;
+   padding: 0px 15px;
+   
+}
+.mj_sub{
+    padding: 31px 0px 19px 0px;
+    position: relative;
+    
+}
+.mj_sub >button{
+    border: none;
+    color: #fff;
+    padding: 10px 19px;
+    background-color: #192e60;
+    position: absolute;
+    /* right: 10px; */
+    font-size: 12px;
+}
+
+.ft_text >span{
+    display: inline-block;
+    vertical-align: top;
+    color: #192e60;
+    font-size: 16px;
+}
+.ft_mj_text{
+    display: inline-block;
+    padding: 0px 0px 0px 16px;
+    line-height: 2;
+}
+/* footer2 start here */
+.footer_head{
+    background-color: #192e60;
+}
+.ft_head{
+    padding: 54px 0px;
+}
+.footer_text >p{
+    color: #fff;
+}
+.ft2_text{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.footer_main{
+    width: 100%;
+    font-size: 0px;
+    padding: 21px 0px 24px 0px;
+}
+.footer_text{
+    width: 50%;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ft_right_ico {
+    width: 50%;
+    font-size: 18px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.ft_right_ico >ul >li{
+    display: inline-block;
+    padding: 0px 13px;
+    cursor: pointer;
+}
+.ft_right_ico >ul>li>span{
+    color: #fff;
+}

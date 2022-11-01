@@ -1,0 +1,360 @@
+.men_head >li{
+    display: inline-block;
+}
+.banner_men{
+    position: relative;
+    font-size: 0px;
+}
+.men_head{
+    padding: 11px 0px;
+}
+.men_head >li >div >a {
+    font-size: 13px;
+    font-weight: bold;
+}
+.mj_cloth >a{
+    color: #ccc;
+}
+.men_shirt{
+    text-align: center;
+    padding-bottom:  23px;
+}
+.men_shirt >p{
+    font-size: 13px;
+    color: #cc0c2e;
+    font-weight: bold;
+}
+.men_shirt >h1{
+    font-size: 29px;
+    color:  #192e60;
+    padding-top: 2px ;
+}
+.men_mj_head{
+    width: 100%;
+    font-size: 0px;
+   
+}
+.men_list_img{
+    text-align: center;
+}
+.men_list_img >li{
+    display: inline-block;
+    font-size: 14px;
+   
+}
+.mj_men_img{
+    padding: 0px 14px;
+}
+.mj_men_img >span >img{
+    max-width: 90px;
+    max-height: 90px;
+}
+.mj_men_img >p{
+    font-size: 10px;
+    color: #272b3f;
+    padding: 10px 0px 35px 0px;
+}
+.mj_men_img >p:hover{
+   text-decoration: underline;
+    color: #000;
+}
+.men_mj_bann_head{
+    border-bottom: 1px solid #ccc;
+    /* padding-bottom: 35px; */
+}
+/* banner left memu css start here */
+.mj_size_head{
+    position: relative;
+    font-size: 0px;
+    vertical-align: top;
+}
+.ban_left_menu_men{
+    width: 250px;
+   
+    position: absolute;
+}
+.left_menu_list >li{
+    display: block;
+    border-bottom: 1px solid#ccc;
+    padding: 38px 31px;
+
+}
+/* dropdown css active class */
+
+ .price>li.active>.arrow>p:after{
+    transform: rotate(-130deg);
+}
+
+
+.mj_arrow{
+    position: absolute;
+    border: 1px solid #000;
+    padding: 5px;
+    height: 5px;
+    width: 5px;
+    right:22px;
+    transition: 0.5s;
+    border-width: 0px 0px 2px 2px;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+}
+.mj_filters >a{
+    font-size: 14px;
+    font-weight: bold;
+   color: #000;
+   vertical-align: middle;
+}
+.drop_list >label{
+    display: block;
+}
+.drop_list >label >input{
+ margin: 12px 12px 12px 0px;
+}
+.mj_categorie_hide{
+    padding-top: 28px;
+}
+.mj_more{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.mj_more >span{
+    color: #192e60;
+   
+}
+.checkbox{
+    position: relative;
+}
+.checkbox_red{
+    margin: 0px 10px;
+  position: absolute;
+   
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.checkbox_blue{
+    margin: 0px 10px;
+  position: absolute;
+   
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: blue
+}
+.checkbox_pink{
+    margin: 0px 10px;
+    position: absolute;
+     
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color:rgb(255, 192, 251)
+}
+.checkbox_green{
+    margin: 0px 10px;
+    position: absolute;
+     
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color:green
+}
+.checkbox_black{
+    margin: 0px 10px;
+    position: absolute;
+     
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color:#000;
+}
+.mj_categorie_hide >label >span{
+    display: inline-block;
+   
+}
+.mj_categorie_hide>label>p{
+    padding: 0px 20px;
+ display: inline-block;
+ margin: 0px 15px;
+}
+.mj_categorie_hide >label >input{
+  display: inline-block;
+}
+.mj_categorie_hide >label{
+    display: block;
+    margin: 12px 12px 12px 0px;
+}
+.mj_categorie_hide{
+    padding-top: 25px;
+}
+
+/* RIGHT MENU CSS */
+.ban_right_memu_men{
+    position: relative;
+    width: calc(100% - 250px);
+    display: inline-block;
+    vertical-align: top;
+    left: 250px;
+    top: 0px;
+    right: 0px;
+    padding: 30px 0px 24px 24px;
+    border-left: 3px solid #ccc;
+}
+.men_box{
+    border: 1px solid #ccc;
+  margin: 0px 10px;
+  position: relative;
+  border: none;
+  outline: none;
+}
+.men_box >div >span >i{
+    position: absolute;
+    right: 37px;
+    top: 8px;
+    font-size: 18px;
+}
+.mj_select{
+    text-align: right;
+}
+.mj_select >select{
+   padding: 12px 0px 12px 10px;
+   width: 220px;
+   font-size: 14px;
+   border-color: #000;
+   margin: 5px 0px 31px 0px ;
+}
+.mj_men_text >h1{
+    font-size: 14px;
+    padding: 15px 0px 4px 0px;
+}
+.mj_men_text >p{
+    font-size: 10px;
+    color: #ccc;
+    padding: 2px 0px 10px 0px;
+}
+.mj_men_text{
+    padding: 5px 5px;
+    /* display: none; */
+}
+
+.mj_view{
+    position: absolute;
+    background-color: #fff;
+    margin: -35px auto;
+    width: 100%;
+    font-size: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+    padding: 11px 18px;
+}
+.mj_view >button{
+    background-color: #15be5b;
+    color: #fff;
+    padding: 8px 46px;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mj_blue{
+    border: 1px solid #ccc;
+  
+    width: 14px;
+    height: 14px;
+    background-color: #649eff;
+}
+.mj_red{
+    border: 1px solid #ccc;
+  
+    width: 14px;
+    height: 14px;
+    background-color: red;
+}
+.mj_pink{
+    border: 1px solid #ccc;
+    width: 14px;
+    height: 14px;
+    background-color:rgb(214, 26, 207)
+}
+.mj_Size_s{
+    font-size: 12px;
+    display: inline-block;
+    padding: 0px 0px 0px 10px; 
+  vertical-align: middle;
+}
+.mj_Size_s >li{
+    display: inline-block;
+    text-align: right;
+}
+.mj_color{
+    padding: 14px 0px 0px 0px;
+}
+.color_list >li{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0px 3px;
+    vertical-align: top;
+}
+.color_list{
+   
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.mj_view_text >p{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 10px 0px 0px;
+    vertical-align: middle;
+}
+.mj_view_text >span{
+    display: inline-block;
+    font-size: 10px;
+    color: #192e60;
+    text-align: right;
+    vertical-align: middle;
+}
+.mj_view_text{
+    padding: 20px 0px 10px 0px;
+}
+.mj_size_box >li{
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+}
+.mj_size_box{
+    width: 100%;
+    font-size: 0px;
+}
+
+.mj_size_box >li:hover .mj_view{
+    visibility: visible;
+    opacity: 1;
+    margin: -48px auto;
+}
+.mj_size_box >li:hover{
+    box-shadow: 0 4px 15px 0 rgb(149 149 149 / 50%);
+}
+/* BANNER BOX2 CSS START HERE */
+.mj_size_head1{
+    position: relative;
+    font-size: 0px;
+    vertical-align: top;
+    margin-top: 48px;
+}
+/* drop down css with jquery */
+.mj_categorie_hide{
+   display: none;
+}
+
+.left_menu_list >li.active .mj_categorie_hide{
+   display: block
+}
+.left_menu_list >li.active .mj_arrow{
+    transform: rotate(-224deg);
+}

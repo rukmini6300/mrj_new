@@ -1,0 +1,51 @@
+.cart_right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    font-size: 14px;
+}
+.cart_head{
+    width: 100%;
+    font-size: 0px
+}
+.cart_left{
+    display: inline-block;
+    width: 50%;
+}
+.cart_right >p{
+    display: inline-block;
+    border-right: 2px solid #000;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.cart_right >span{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.cart_mj{
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+    box-shadow: 0 4px 15px 0 rgba(149, 149, 149, 0.5);
+}
+/* banner css start here */
+.cart_ban_left >p{
+    display: inline-block;
+}
+.cart_ban_left >span{
+    display: inline-block;
+    text-align: right;
+}
+.cart_banner{
+    padding: 18px 0px 0px 0px;
+}
+.cart_ban_left{
+    border-right: 2px solid #ccc;
+    width: 748px;
+    display: inline-block;
+    margin: 0px auto;
+}
+.cart_ban_right {
+    display: inline-block;
+   
+}
